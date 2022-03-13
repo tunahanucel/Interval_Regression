@@ -3,7 +3,6 @@
 from sklearn.base import BaseEstimator
 from mapie.regression import MapieRegressor 
 import matplotlib.pyplot as plt
-import pandas as pd
     
 class IntervalRegressor(BaseEstimator):
     """
